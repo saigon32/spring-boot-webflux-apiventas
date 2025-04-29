@@ -1,0 +1,10 @@
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\controllers\ProductoController.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\handler\ProductoHandler.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\dao\CategoriaDao.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\dao\ProductoDao.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\documents\Categoria.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\documents\Producto.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\services\ProductoService.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\models\services\ProductoServiceImpl.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\RouterFunctionConfig.java
+c:\wks_sts_webflux\spring-boot-webflux-apirest\src\main\java\com\bolsadeideas\springboot\reactor\app\SpringBootWebfluxApirestApplication.java
