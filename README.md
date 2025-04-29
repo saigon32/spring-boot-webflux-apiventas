@@ -13,8 +13,9 @@ agreggar endpoint de listar ventas
 -	las ventas deben traer el listado de produtos vendidos                  -> OK
     http://localhost:8085/api/ventas?size=10&page=0
 
-se adjunta coleccion de postman: spring-boot-webflux-apiventas.postman_collection
-y los endpont en curl:
+se adjunta coleccion de postman: spring-boot-webflux-apiventas.postman_collection.json
+
+endpoint en curl:
 
 listar-productos: curl --location 'http://localhost:8085/api/productos'
 
