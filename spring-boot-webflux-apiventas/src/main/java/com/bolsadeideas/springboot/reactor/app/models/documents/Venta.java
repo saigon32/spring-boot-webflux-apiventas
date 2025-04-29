@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.AllArgsConstructor;
@@ -18,37 +19,48 @@ import lombok.NoArgsConstructor;
 @Document(collection = "ventas")
 public class Venta {
 
-	@Id
-	private String id;
+    @Id
+    private String id;
 
-	private List<String> productosCodStock;
+    private List<String> productosCodStock;
 
-	private Double total;
+    private Double total;
 
-	private LocalDateTime fechaVenta;
+    private LocalDateTime fechaVenta;
 
-	public String getId() {
-		return id;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setFechaVenta(LocalDateTime fechaVenta) {
-		this.fechaVenta = fechaVenta;
-	}
+    public void setFechaVenta(LocalDateTime fechaVenta) {
+        this.fechaVenta = fechaVenta;
+    }
 
-	public void setProductosCodStock(List<String> productosCodStock) {
-		this.productosCodStock = productosCodStock;
-	}
+    public void setProductosCodStock(List<String> productosCodStock) {
+        this.productosCodStock = productosCodStock;
+    }
 
-	public List<String> getProductosCodStock() {
-		return productosCodStock;
-	}
+    public List<String> getProductosCodStock() {
+        return productosCodStock;
+    }
 
-	public Double getTotal() {
-		return total;
-	}
+    public Double getTotal() {
+        return total;
+    }
 
-	public LocalDateTime getFechaVenta() {
-		return fechaVenta;
-	}
+    public LocalDateTime getFechaVenta() {
+        return fechaVenta;
+    }
+
+    @Transient
+    private int totalUnidadesVendidas;
+
+    public int getTotalUnidadesVendidas() {
+        return totalUnidadesVendidas;
+    }
+
+    public void setTotalUnidadesVendidas(int totalUnidadesVendidas) {
+        this.totalUnidadesVendidas = totalUnidadesVendidas;
+    }
 
 }
